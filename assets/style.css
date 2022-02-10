@@ -49,9 +49,9 @@ body {
     display: inline-block;
     margin: 5px;
     cursor: pointer;
-    font-family: "Architects Daughter", cursive;
+    font-family: 'Times New Roman', Times, serif,;
     font-size: 100%;
-    background-color: rgb(5, 87, 87);
+    background-color: rgb(236, 43, 9);
     border-radius: 5px;
     padding: 2px 10px;
     color: white;
