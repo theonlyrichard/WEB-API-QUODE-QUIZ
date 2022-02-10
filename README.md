@@ -1,35 +1,28 @@
-# Code Quiz
+# Project: Web APIs: Code Quiz
+ Deployable Link - > https://theonlyrichard.github.io/WEB-API-QUODE-QUIZ/
 
-This is a timed coding quiz with multiple-choice questions. This app is written from scratch.
+ As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
-## Installation
-1. Download or clone repository
-2. Open the main page (index.html) on your browser to view webpage
-3. Use a text editor to view all coding, Visual Studio Coding is recommended.
-   
+## User Story
 
-## Instructions
-1. Click "Start Quiz"
-   * Timer on the top right will start to run
-   * Total time is 150 second with 12 questions in total
-   * The "View High Scores" link on the top left will direct the user to view all current high scores
+```
+AS A coding bootcamp student
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+SO THAT I can gauge my progress compared to my peers
+```
 
+## Acceptance Criteria
 
-2. A series of questions are presented with multiple choice answers
-   * If the question is answered wrong, 10 seconds will be deducted to the timer
-   * If the question is answered correctly, will add 1 to the score
-   * After a question is answered, it will show on the bottom whether it is answered correctly or wrong. If wrong, will also show the correct answer.
-  
-3. When all questions are answered or the timer reaches 0, game is over
-   
-4. When game is over, the user can enter initial and score, click "Submit" to save to high scores to local storage
-   
-5. Then it will show a list of saved high scores
-   
-6. The user then will have the option to click on "Go Back" to start quiz again, or "Clear High Scores" to clear saved scores
+```
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
 
-## Features
-* HTML
-* CSS
-* JavaScript
-* Bootstrap<img width="1680" alt="Screen Shot 2022-01-10 at 9 01 58 PM" src="https://user-images.githubusercontent.com/93751925/148884184-bb8123aa-6bed-4e00-939a-d239c45bfb3b.png">
